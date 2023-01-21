@@ -1,0 +1,6 @@
+; A expressão abaixo deve ser inserida no parâmetro posição. 
+; O primeiro valor se refere a X (largura) e Y (altura) e devem possuir o mesmo valor da tamanho da composição.   
+;  Ex: Se a comp for 1920x1080 é necessário trocar o valor 1080 para 1920,  e o de 1920 para 1080. E Então, pressionar Ctrl+D para duplicar objetos de maneira aleatória
+
+seedRandom(index, timeless = true);
+[random(0,1080), random(0,1920)]
