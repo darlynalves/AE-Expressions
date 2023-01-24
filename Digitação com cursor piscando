@@ -1,0 +1,7 @@
+n=effect("Speed")("Slider");
+vel = 05;
+x = Math.abs( Math.sin(time * vel) )
+if(x<0.5)
+showtext=text.sourceText.substr(0,n);
+else
+showtext=text.sourceText.substr(0,n)+"|";
